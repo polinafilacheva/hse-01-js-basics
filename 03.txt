@@ -1,0 +1,25 @@
+let start = "Жили у бабуси два веселых гуся"
+//(вторая кавычка должна быть двойная)
+let $end = "Один серы другой белый - два веселых гуся"
+
+
+let text1 = "start"
+//название не может начинаться с цифры
+
+if (text1 === start) {
+   alert($end)
+} else {
+   alert(start)
+}
+
+
+
+let discoutCode = 985
+let simpsonsBestEpisode = "Broken Secret"
+let coffeePrise = 149.99
+
+if (coffeePrise <= 250){
+   alert("беру!")
+} else {
+    alert("Вот купон на скидку: " + discoutCode)
+}
