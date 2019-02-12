@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"
+  <title>Document</title>
+</head>
+<body>
+  <script>
+    if (inStock === true) {
+     if (onSale === true) {
+      console.log("Срочно купить!")
+     }
+   }
+   if (inStock === true && onSale === true) {
+     console.log("Срочно купить!")
+   }
+   if (inStock === true || onSale === false) {
+     console.log("Срочно купить!")
+   }
+
+   let temp = 39
+   let isFeelBad = true
+   let hasFlue = (temp > 37 && isFeelBad === false)
+   hasFlue = false
+
+   var size = 43
+   var isComfortable = (size >= 43 && size <= 44)
+   console.log(isComfortable)
+
+
+   let kB = 1287
+   let isTooBig = (kB > 1000)
+   let isUegent = true
+   let chouldSendFile = (isUegent === true || isTooBig === false)
+   console.log(chouldSendFile)
+   
+
+
+  </script>
+</body>
+</html>
