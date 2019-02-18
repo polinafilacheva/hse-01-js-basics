@@ -7,7 +7,7 @@
 
 let location1 = Math.floorr(Math.random() * 8)
 let location2 = location1 + 1
-let location3 = location2 + 1
+let location3 = location2 + 
 //создаем переменную currentShot
 let currentShot
 //создаем переменную длтя счета выстрелов
