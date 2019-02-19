@@ -6,7 +6,6 @@ function checkMovie(movieName, movieRating, moviePrise) {
   }
 }
 
-
 let moveName = "Алита: Боевой ангел"
 let moveRating = 7.3
 let movePrise = 600
