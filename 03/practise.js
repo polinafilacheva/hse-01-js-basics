@@ -61,3 +61,57 @@
 // 	}
 // 	checkBedTime(9)
 // 	checkBedTime(7)
+
+
+// addJne(()
+
+function addOne(HARRY) {
+  return HARRY + 1
+}
+let number = 10
+let num = 20
+console.log("Вызываю функцию " + addOne(number));
+console.log("Вызываю функцию " + addOne(num));
+
+console.log("Вызываю функцию " + addOne(15));
+
+
+function nextEven(num) {
+  if(num % 2 === 0) {
+    return num + 2
+    console.log(num);
+  } else {
+    return num + 1
+    console.log(num);
+  }
+}
+nextEven(37)
+
+function nextEven(num) {
+  if(Number.isInteger(num / 2 === 0)) {
+    return num + 2
+    }else {
+      return num + 1
+      console.log(num);
+    }
+  }
+  nextEven(61)
+
+
+  function makeDiff(a, b, c) {
+    let min = Math.min(a, b, c)
+    let min = Math.max(a, b, c)
+    let middle = a + b + c - min - max
+
+    console.log("min + 1:" + addOne(min));
+    console.log("Сделал среднее четным " + nextEven(middle));
+    console.log("min - min + middle = " + (max + min + middle));
+  }
+
+  makeDiff(10, 20, 30)
+
+
+
+  function functionName() {
+
+  }

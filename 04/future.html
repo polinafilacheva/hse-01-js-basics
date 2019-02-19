@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Сайт с предсказаниями</title>
+  <style>
+    img {
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <img onclick="tellFuture()" src="сockie.png" alt="печенька" >
+
+  <h1 id="phrase">нажми и узнай будущее</h1>
+  <script>
+    let $phrase = document.getElementById("phrase")
+    function tellFuture() {
+      let start = ["Однажды", "Грядет пора перемен" , "Еще немного и "]
+      let mid = ["Ты станешь богом", "ты бросишь ШД", "ты будешь делать"]
+      let end = ["печеньки", "тостеры", "шариков"]
+      let randomStart =
+       start[Math.floor(Math.random() * start.length)]
+      let randomMid =
+       mid[Math.floor(Math.random() * mid.length)]
+      let randomEnd =
+       end[Math.floor(Math.random() * end.length)]
+       $phrase.textContent = randomStart + " " + randomMid + " " + randomEnd
+    }
+  </script>
+</body>
+</html>
